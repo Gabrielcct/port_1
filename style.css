@@ -1,0 +1,50 @@
+body {
+  background-color: #d1eded;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+footer {
+  position: fixed;
+  min-height: 60px;
+  font-size: 15px;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.content {
+  text-align: center;
+}
+.my-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 280px;
+}
+
+h5 {
+  margin-top: 22px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+
+p {
+  margin-top: 16px;
+  font-size: small;
+  font-family: "Outfit", sans-serif;
+  padding: 0 5px;
+}
